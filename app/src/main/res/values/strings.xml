@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Gituser Lite</string>
+    <string name="search">SearchBar</string>
+    <string name="detail_activity">Detail User</string>
+    <string name="search_hint">Github Username</string>
+    <string name="textview">TextView</string>
+    <string name="image">photo profile</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="username">Username</string>
+    <string name="fab">floating</string>
+    <string name="favorite_page">Favorite Page</string>
+    <string name="no_users_found">No Favorite User</string>
+    <string name="setting">Setting</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="users_not_found">User Not Found</string>
+    <string name="no_followers">User doesn\'t have any followers</string>
+    <string name="no_following">User doesn\'t follow anyone</string>
+    <string name="no_favorite_user">No Favorite User</string>
+</resources>
