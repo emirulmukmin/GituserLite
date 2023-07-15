@@ -155,7 +155,7 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
                 } else {
                     detailUsername?.let { detailViewModel.insertFavorite(it) }
                     isFavoriteUser(true)
-                    showToast(this, "User Deleted from Favorite")
+                    showToast(this, "User Added to Favorite")
                 }
             }
         }
