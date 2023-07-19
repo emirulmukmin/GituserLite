@@ -158,6 +158,7 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
                     isFavoriteUser(true)
                     showToast(this, "User Added to Favorite")
                     Log.d("tes", "harusnya ini cuma berubah di experimental branch")
+                    Log.d("tes", "harusnya ini muncul di develop branch")
                 }
             }
         }
