@@ -3,6 +3,7 @@ package com.dicoding.gituserlite.ui.view
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
@@ -156,6 +157,7 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
                     detailUsername?.let { detailViewModel.insertFavorite(it) }
                     isFavoriteUser(true)
                     showToast(this, "User Added to Favorite")
+                    Log.d("Tes", "ini harusnya muncul di tester branch")
                 }
             }
         }
